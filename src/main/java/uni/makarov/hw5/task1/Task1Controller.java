@@ -73,12 +73,6 @@ public class Task1Controller {
     }
 
 
-    /*
-    Я хотів зробити так щоб ця кнопка ховалась
-    коли вибирали Regular Triangle у ChoiceBox,
-    але у мене не вийшло зробити перевірку та отримати значення з ChoiceBox,
-    але потім замітив що у мене в ChoiceBox було Right Triangle, а не Regular...
-    */
     @FXML
     private void calcAreaAction() {
         String figure = String.valueOf(choiceBox.getSelectionModel().getSelectedItem());

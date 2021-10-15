@@ -7,16 +7,6 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-/*
-Triangle:
-field: sides,
-method: calcGrade, calcPerimeter, changeSide
-
-RegularTriangle:
-field: area
-method: calcArea
-*/
-
 public class Task1Application extends Application {
     @Override
     public void start(Stage stage) throws IOException {
